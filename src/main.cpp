@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include "../include/Board.h"
 #include "../include/BSGame.h"
 #include "../include/GameRule.h"
 #include "../include/Graphics.h"
@@ -19,6 +20,6 @@ int main()
     // the static keyword allows you to call functions with an instance
     // notice how it's not being called through an object!
     BSGame::iDontNeedAnInstance();
-    
+
     return 0;
 }
