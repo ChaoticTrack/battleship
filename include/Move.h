@@ -1,7 +1,7 @@
 #ifndef MOVE_H
 #define MOVE_H
 
-class GameRule
+class Move
 {
     public:
 

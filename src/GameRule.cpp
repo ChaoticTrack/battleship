@@ -1,1 +1,1 @@
-#include "GameRule.h";
+#include "../include/GameRule.h"
