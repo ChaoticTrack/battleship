@@ -6,6 +6,7 @@
 #include "../include/Graphics.h"
 #include "../include/Move.h"
 #include "../include/Player.h"
+#include "../include/Ship.h"
 
 int main()
 {
