@@ -6,11 +6,10 @@
 class BSGame
 {
     public:
-        void exampleMethod(int);
-        static void iDontNeedAnInstance();
+        
+
     protected:
     private:
-        int memberI;
 
 };
 

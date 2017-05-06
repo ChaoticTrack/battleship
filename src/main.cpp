@@ -15,12 +15,17 @@ int main()
     // game object with type BSGame
     BSGame game;
 
-    // calling method exampleMethod(int n) from game object. requires an instance
-    game.exampleMethod(3);
+    Ship Battleship;
+    Board Board;
 
-    // the static keyword allows you to call functions with an instance
-    // notice how it's not being called through an object!
-    BSGame::iDontNeedAnInstance();
+    //Ship *currentShip = Board.getShipAtSquare(2, 4);
+    //std::cout << "my name is " << currentShip->getName();
+
+    Ship currentShipOne = Board.getShipAtSquare(3, 5);
+
+    std::cout << "my name is " << currentShipOne.getName() << std::endl;
+    Board.setShipToSquareRange(Battleship, 1, 2, 3, 4);
+
 
     return 0;
 }
